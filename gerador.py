@@ -26,8 +26,8 @@ class GeradorDePadrao:
        def getFramesColunasEmBinario(self):
               return [bin(frame.bitsColuns) for frame in self.frames]
      
-              
-nomeImagem = input("Digite o link da imagem: ")
+print("O padrao Gerado Vai Ser Salvo Em Arquivos .PTN Na Mesma Pasta Onde Está o Código")
+nomeImagem = input(">>> Digite o link da imagem: ")
 imagem = Image.open(nomeImagem)
 sizeX, sizeY = imagem.size
 painelDePixels = imagem.load()
