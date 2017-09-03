@@ -1,5 +1,6 @@
 import os, sys
 from PIL import Image
+#Codigo Feito Por: Elias Paulino
 
 class RepresentacaoFrame:
        def __init__(self, bitsLinhas, bitsColuns):
@@ -37,9 +38,9 @@ if(sizeX > 8 or sizeY > 8):
 gerador = GeradorDePadrao(painelDePixels, [(0,0,0,255), (0,0,0)], sizeX, sizeY)
 gerador.gerarFrames()
 
-arquivo = open("linhas.PTN", "w")
-arquivo.write(' ,'.join(gerador.getFramesLinhasEmBinario()))
+arquivo = open(nomeImagem[:-4]+"linhas.PTN", "w")
+arquivo.write(";Codigo Feito Por: Elias Paulino\n"+' ,'.join(gerador.getFramesLinhasEmBinario()))
 arquivo.close()
-arquivo = open("colunas.PTN", "w")
-arquivo.write(' ,'.join(gerador.getFramesColunasEmBinario()))
+arquivo = open(nomeImagem[:-4]+"colunas.PTN", "w")
+arquivo.write(";Codigo Feito Por: Elias Paulino\n"+' ,'.join(gerador.getFramesColunasEmBinario()))
 arquivo.close()
