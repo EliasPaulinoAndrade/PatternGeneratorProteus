@@ -1,6 +1,15 @@
 import os, sys
 from PIL import Image
 #Codigo Feito Por: Elias Paulino
+#USANDO O CODIGO:
+'''
+A imagem escaneada precisa ter tamanho 8x8 ou menor, mesmo tamanho do display do proteus, 
+o pixel preto corresponde ao led ligado no display, e o branco, ao led desligado.
+Após gerar o padrao, que será salvo na mesma pasta do código, ajuste o clock dos geradores de padrao do proteus, o código
+foi pensando para que cada display 8x8 tenha um gerador de padrao para as linhas e um para coluna,  conforme a figura: http://i.imgur.com/W5XudUw.png.
+Para cada imagem será gerado um padrao para as colunas e um para as linhas. 
+
+'''
 
 class RepresentacaoFrame:
        def __init__(self, bitsLinhas, bitsColuns):
