@@ -3,6 +3,7 @@ from PIL import Image
 #Codigo Feito Por: Elias Paulino
 #USANDO O CODIGO:
 '''
+INSTALE A BIBLIOTECA PIL PARA RODAR
 A imagem escaneada precisa ter tamanho 8x8 ou menor, mesmo tamanho do display do proteus, 
 o pixel preto corresponde ao led ligado no display, e o branco, ao led desligado.
 Após gerar o padrao, que será salvo na mesma pasta do código, ajuste o clock dos geradores de padrao do proteus, o código
