@@ -1,6 +1,8 @@
 # PatternGeneratorProteus
 Nesse repositório estão alguns geradores de padrão para o proteus feitos na disciplina de MICROCONTROLADORES E MICROPROCESSADORES para automatizar tarefas com geradores de padrão. Os códigos de padrão gerados devem ser inseridos em geradores de padrão do proteus, exemplo: http://i.imgur.com/W5XudUw.png.
 
+![](http://i.imgur.com/W5XudUw.png)
+
 ## Gerador de Padrão a partir de Imagem
 
 ### Pré-Requisitos:
